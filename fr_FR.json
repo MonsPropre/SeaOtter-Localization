@@ -56,12 +56,12 @@
         "vcb" : "Vérifiez ✅",
         "vsa" : "embed de vérification activé dans {channel}.",
         "vrsa" : "rôle de vérification défini sur {role}.",
-        "v1" : "Succesfully activated alltime playtime embed on {channel}.\nI will display the overall playtime for all those players whose name contains {filter}.",
-        "vf1" : "Succesfully activated alltime playtime embed on {channel}.\nI will display the overall playtime for all the players",
-        "v2" : "Succesfully activated current month playtime embed on {channel}.\nI will display the current month playtime for all those players whose name contains {filter}.",
-        "vf2" : "Succesfully activated current month playtime embed on {channel}.\nI will display the current month playtime for all the players",
-        "v3" : "Succesfully activated past month playtime embed on {channel}.\nI will display the past month playtime for all those players whose name contains {filter}.",
-        "vf3" : "Succesfully activated past month playtime embed on {channel}.\nI will display the past month playtime for all the players"
+		"v1" : "Embed de temps de jeu total activé avec succès sur {channel}.\nJ'afficherai le temps de jeu total pour tous les joueurs dont le nom contient {filter}.",
+		"vf1" : "Embed de temps de jeu total activé avec succès sur {channel}.\nJ'afficherai le temps de jeu total pour tous les joueurs",
+		"v2" : "Embed de temps de jeu du mois en cours activé avec succès sur {channel}.\nJ'afficherai le temps de jeu du mois en cours pour tous les joueurs dont le nom contient {filter}.",
+		"vf2" : "Embed de temps de jeu du mois en cours activé avec succès sur {channel}.\nJ'afficherai le temps de jeu du mois en cours pour tous les joueurs",
+		"v3" : "Embed de temps de jeu du mois précédent activé avec succès sur {channel}.\nJ'afficherai le temps de jeu du mois précédent pour tous les joueurs dont le nom contient {filter}.",
+		"vf3" : "Embed de temps de jeu du mois précédent activé avec succès sur {channel}.\nJ'afficherai le temps de jeu du mois précédent pour tous les joueurs"
     },
     "st" : {
         "t" : "État des serveurs Cops and Robbers V",
@@ -88,12 +88,12 @@
         "u" : "autre"
     },
     "skb" : {
-        "e1" : "Invalid message.",
-        "e2" : "Setup the skullboard first. Run `/config-channels`.",
-        "e3" : "An unknown error occoured.",
-        "jtm" : "Jump to message",
-        "fb" : "message sent to {channel}",
-        "l" : "Has skulled a message"
+        "e1" : "Message non valide.",
+        "e2" : "Installez d’abord le Skullboard. exécutez `/config-channels`.",
+        "e3" : "Une erreur inconnue s’est produite.",
+        "jtm" : "Aller au message",
+        "fb" : "Message envoyé dans {channel}",
+        "l" : "a skulled un message"
     },
     "ctg" : {
         "e1" : "Erreur : Données de comptage non trouvées",
@@ -130,7 +130,7 @@
         "gtm" : "Aller au message",
         "bj" : "Merci de m'avoir invité sur votre serveur !",
         "br" : "Merci de m'avoir réinvité sur votre serveur !",
-        "nm" : "no match found"
+        "nm" : "aucune correspondance trouvée"
     },
     "int" : {
         "s" : "Support",
@@ -178,11 +178,11 @@
             "e3" : "Veuillez exécuter /offline-ban.",
             "dp" : "Vous ne pouvez pas bannir mon papa <a:smiling_pepe_uwu:1172250686138880020> ",
             "cf" : "a été définitivement banni du serveur Discord",
-            "e4" : "That user exists in this server.",
-            "e5" : "That user doesn't exist.", 
-            "e6" : "That user is already banned from the server.",
-            "e7" : "That user already has a pending ban.",
-            "af" : "User banned",
+            "e4" : "Cet utilisateur existe sur ce serveur.",
+            "e5" : "Cet utilisateur n'existe pas.", 
+            "e6" : "Cet utilisateur est déjà banni du serveur.",
+            "e7" : "Cet utilisateur a déjà un bannissement en attente.",
+            "af" : "Utilisateur banni",
             "paf" : "Pending made"
         },
         "k" : {
@@ -195,7 +195,7 @@
             "f" : "a été expulsé du serveur discord",
             "kl" : "A expulsé",
             "e2" : "Une erreur s'est produite lors du traitement de l'expulsion.",
-            "af" : "User Kicked"
+            "af" : "Utilisateur expulsé"
         },
         "ti" : {
             "e1" : "il n'est pas un support ticket"
@@ -222,7 +222,7 @@
             "i" : "a été renommé",
             "l" : "A renommé",
             "d" : "Vous avez été renommé",
-            "af" : "User renamed"
+            "af" : "Utilisateur renommé"
         },
         "ra" : {
             "r" : " rôle",
@@ -232,14 +232,14 @@
             "d" : "Vous avez reçu",
             "e1" : "Je ne peux pas assigner/retirer ce rôle car mon rôle le plus élevé est inférieur au rôle sélectionné.",
             "e2" : "⛔ | Oups! Cet utilisateur a déjà ce rôle.",
-            "af" : "Role assigned"
+            "af" : "Role assigné"
         },
         "rr" : {
             "r" : "a été retiré",
             "f" : "de",
             "y" : "Votre",
             "e1" : "⛔ | Oups! Cet utilisateur n'a pas encore ce rôle.",
-            "af" : "Role removed"
+            "af" : "Role retiré"
         },
         "p" : {
             "e1" : "You need to input a number between 1 and 99.",
@@ -263,11 +263,11 @@
         "m12" : "Décembre"
     },
     "b" : {
-        "ta" : "Top 10 all time {filter}players by playtime",
-        "tcm" : "{month}'s top 10 {filter}players by playtime",
-        "p" : "Playtime: {value}",
-        "nf" : "No {filter}players found",
-        "tlm" : "{month} {year}'s top 10 {filter}players by playtime",
-        "tly" : "{year}'s top 10 {filter}players by playtime"
+        "ta" : "Top 10 des temps de jeu par {filter}joueur",
+        "tcm" : "Top 10 des meilleurs {filter}joueurs de {month} par temps de jeu",
+        "p" : "Temps de jeu: {value}",
+        "nf" : "Aucun {filter}joueurs trouvés",
+        "tlm" : "Top 10 des meilleurs {filter}joueurs de {month} {year} par temps de jeu",
+		"tly" : "Top 10 des meilleurs {filter}joueurs de {year} par temps de jeu"
     }
 }
